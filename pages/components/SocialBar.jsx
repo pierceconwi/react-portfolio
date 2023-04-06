@@ -16,6 +16,7 @@ export default function SocialBar() {
                     <Button variant="success">Let's Talk</Button>
                 </Col>
             </Row>
+            <br />
         </Container>
         </>
     );
