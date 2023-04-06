@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import NavBar from '../pages/components/navbar'
+import SplashBox from '../pages/components/splashbox'
+import SocialBar from '../pages/components/socialbar'
 import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,8 +21,9 @@ export default function Home() {
       <main className={styles.main}>
         
       <NavBar />
-
-
+      <SplashBox />
+      <SocialBar />
+      
       </main>
     </>
   )
