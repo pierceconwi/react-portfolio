@@ -1,44 +1,27 @@
 import React from 'react';
 import Image from 'next/image'
+import vercel  from '../public/vercel.svg';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 export default function NavBar() {
     return (
         <div>
-        {/* <div>
-            <div>
-                <Image src="../public/vercel.svg" alt="logo" width="50" height="50" />
-            </div>
-            <div>
-                <p>Home</p>
-                <p>Services</p>
-                <p>Projects</p>
-                <p>Contact</p>
-            </div>
-        </div> */}
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <Image src="../public/vercel.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
-                    Pierce Conwi
-                </a>
-                <div class="collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#top">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+            <Navbar bg="light" expand="md">
+            <Container>
+                <Navbar.Brand href="#home"><Image src={vercel} alt="logo" width="50" height="50" /></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto">
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#services">Services</Nav.Link>
+                    <Nav.Link href="#projects">Projects</Nav.Link>
+                    <Nav.Link href="#contact">Contact</Nav.Link>
+                </Nav>
+                </Navbar.Collapse>
+            </Container>
+            </Navbar>
+        </div>
     );
 }
