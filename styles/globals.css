@@ -104,6 +104,16 @@ a {
   width: 100vw!important;
 }
 
+.border-radiusImportant{
+  border-radius: 175px !important;
+}
+
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
