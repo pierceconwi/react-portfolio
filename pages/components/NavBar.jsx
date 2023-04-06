@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function NavBar() {
     return (
+        <>
         <div>
             <Navbar bg="light" expand="md">
             <Container>
@@ -23,5 +24,6 @@ export default function NavBar() {
             </Container>
             </Navbar>
         </div>
+        </>
     );
 }
