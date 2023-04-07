@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 export default function Footer() {
     return (
         <>
-        <Container>
+        <Container id="contact" >
             <Row>
                 <Col xs="12" md="6">
                 <h5>Pierce Conwi</h5>

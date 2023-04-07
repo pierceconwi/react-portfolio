@@ -8,13 +8,13 @@ import selfie  from '../public/hs_full.jpg';
 export default function SplashBox() {
     return (
         <>
-        <Container>
+        <Container id="home">
             <br />
             <Row>
                 <Col sm="12" md="8">
                     <h1>Pierce Conwi</h1>
                     <h2>Web Developer</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In vitae turpis massa sed elementum tempus egestas sed sed. Malesuada fames ac turpis egestas maecenas. Scelerisque mauris pellentesque pulvinar pellentesque. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Mauris ultrices eros in cursus turpis massa tincidunt. Ornare arcu dui vivamus arcu felis bibendum ut.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In vitae turpis massa sed elementum tempus egestas sed sed. Malesuada fames ac turpis egestas maecenas. Scelerisque mauris pellentesque pulvinar pellentesque.</p>
                     <p>Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Nibh ipsum consequat nisl vel pretium lectus quam id leo.</p>
                 </Col>
                 <Col sm="12" md="4">

@@ -9,7 +9,7 @@ import { Laptop, Phone, Brush } from 'react-bootstrap-icons';
 export default function Services() {
     return (
         <>
-        <Container>
+        <Container id="services">
             <h2>Services</h2>
             <Row>
                 <Col xs="12" md="4">

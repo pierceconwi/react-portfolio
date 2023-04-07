@@ -132,6 +132,17 @@ h1{
   height: 40px;
 }
 
+.btn-success{
+  background-color: #9163F3;
+  border-color: white;
+}
+
+.btn-success:hover {
+  background-color: white;
+  border-color: #9163F3;
+  color: #9163F3;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -9,7 +9,7 @@ import { Laptop, Brush } from 'react-bootstrap-icons';
 export default function RecentProject() {
     return (
         <>
-        <Container>
+        <Container id="projects">
             <h2>Recent Project</h2>
             <Row>
                 <Col xs="12">
