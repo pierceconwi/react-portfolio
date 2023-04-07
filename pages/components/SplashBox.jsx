@@ -9,6 +9,7 @@ export default function SplashBox() {
     return (
         <>
         <Container>
+            <br />
             <Row>
                 <Col sm="12" md="8">
                     <h1>Pierce Conwi</h1>

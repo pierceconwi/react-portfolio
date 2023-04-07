@@ -14,14 +14,20 @@ export default function Footer() {
                 <h6>Web Developer</h6>
                 <p>San Francisco Bay Area, California</p>
                 </Col>
-                <Col xs="12" md="6">
+                <Col xs="12" md="6"
+                >
                 <h6>Contact Me</h6>
                 <p>&#40;209&#41; 810-0254</p>
                 <p>pierceconwi@gmail.com</p>
                 </Col>
             </Row>
+            <br />
             <Row>
-                <Col>
+                <Col                      
+                    style={{
+                        textAlign: "center"
+                    }}
+                >
                     <p>Copyright &#169; 2023 Pierce Conwi. All rights reserved.</p>
                 </Col>
             </Row>
