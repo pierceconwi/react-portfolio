@@ -17,7 +17,6 @@ export default function Footer() {
                 <Col xs="12" md="6"
                 >
                 <h6>Contact Me</h6>
-                <p>&#40;209&#41; 810-0254</p>
                 <p>pierceconwi@gmail.com</p>
                 </Col>
             </Row>

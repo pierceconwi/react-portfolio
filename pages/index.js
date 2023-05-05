@@ -30,8 +30,6 @@ export default function Home() {
       <Projects />
       <SocialBar />
       <Footer />
-
-      
       </main>
     </>
   )
