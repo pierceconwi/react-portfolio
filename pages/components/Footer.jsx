@@ -17,7 +17,7 @@ export default function Footer() {
                 <Col xs="12" md="6"
                 >
                 <h6>Contact Me</h6>
-                <p>pierceconwi@gmail.com</p>
+                <a href={"mailto:pierceconwi@gmail.com"}>pierceconwi@gmail.com</a>
                 </Col>
             </Row>
             <br />

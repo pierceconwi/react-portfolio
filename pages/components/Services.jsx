@@ -37,7 +37,7 @@ export default function Services() {
                     <Card.Title>Mobile App Development</Card.Title>
                     <Phone  className="icon" />
                     <Card.Text>
-                        Custom data-driven solutions delivered in a mobile-responsive package.
+                        Data-driven solutions delivered in a speciaized, mobile-responsive package.
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -52,7 +52,7 @@ export default function Services() {
                     <Card.Title>Website & Landing Page Design</Card.Title>
                     <Brush  className="icon" />
                     <Card.Text>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Eye-catching designs which hinge on simplicity to maximize conversions.
                     </Card.Text>
                     </Card.Body>
                 </Card>

@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import { Laptop, Brush } from 'react-bootstrap-icons';
+import placeholder from '../public/placeholder_md.jpg';
+import bsrss from '../public/bsr-hp-ss.png';
 
 export default function RecentProject() {
     return (
@@ -20,9 +22,12 @@ export default function RecentProject() {
                 >
                     <Card.Body>
                     <Card.Title>Bikeable Santa Rosa</Card.Title>
-                    <Laptop  className="icon" /> <Brush  className="icon" />
+                    <Image className="img-center, img-fluid" src={bsrss} alt="screenshot of a website made for Bikeable Santa Rosa" />
                     <Card.Text>
                     WordPress-powered news and events website for a local community activist coalition.
+                    </Card.Text>
+                    <Card.Text>
+                        <a href="https://bikeablesantarosa.org" target="_blank" rel="noopener noreferrer">See it live!</a>
                     </Card.Text>
                     </Card.Body>
                 </Card>
