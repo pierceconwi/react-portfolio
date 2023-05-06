@@ -148,6 +148,18 @@ h1{
   transform: scale(1.1);
 }
 
+#services {
+  scroll-margin-top: 90px;
+}
+
+#projects {
+  scroll-margin-top: 90px;
+}
+
+#contact {
+  scroll-margin-top: 90px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
