@@ -11,7 +11,7 @@ export default function NavBar() {
         <div>
             <Navbar bg="dark" variant="dark" expand="md" fixed="top" >
             <Container>
-                <Navbar.Brand href="#home"><Image src={selfie} alt="logo" width="50" height="50" /></Navbar.Brand>
+                <Navbar.Brand href="#home"><Image className="border-radiusImportant" src={selfie} alt="logo" width="50" height="50" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">

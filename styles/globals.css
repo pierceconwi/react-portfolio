@@ -96,8 +96,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #9163F3;
   text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
 
 .navbar{
