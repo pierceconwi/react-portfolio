@@ -9,12 +9,13 @@ import Projects from '../pages/components/projects';
 import Footer from '../pages/components/footer';
 import styles from '@/styles/Home.module.css';
 import Projects2 from '../pages/components/projects2';
-import { getSortedList } from './lib/data.js';
+import { getProjects } from './lib/data.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export async function getStaticProps() {
-  const data = await getSortedList();
+  const data = await getProjects();
+  console.log("gSP:")
   console.log(data);
   return {
       props: {
@@ -23,7 +24,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home( { data }) {
+export default function Home({ data }) {
   return (
     <>
       <Head>
