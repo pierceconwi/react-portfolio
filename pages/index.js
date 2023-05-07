@@ -9,10 +9,21 @@ import Projects from '../pages/components/projects';
 import Footer from '../pages/components/footer';
 import styles from '@/styles/Home.module.css';
 import Projects2 from '../pages/components/projects2';
+import { getSortedList } from './lib/data.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export async function getStaticProps() {
+  const data = await getSortedList();
+  console.log(data);
+  return {
+      props: {
+          data
+      }
+  };
+}
+
+export default function Home( { data }) {
   return (
     <>
       <Head>
