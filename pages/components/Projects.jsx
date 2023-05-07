@@ -4,49 +4,42 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import placeholder from '../public/placeholder_md.jpg';
 import firechakra from '../public/fc_ss.png';
 import aprilscloset from '../public/ac_ss.png';
+import Link from 'next/link';
+import { useState } from 'react'
 
-export default function Projects() {
+export default function Projects({ data }) {
+    const [id, setId] = useState(" ");
+    const [name, setName] = useState(" ");
+    const [description, setDescription] = useState(" ");
+    const [screenshot, setScreenshot] = useState(" ");
+    const [livelink, setLivelink] = useState(" ");
     return (
         <>
         <Container>
             <h2>Projects</h2>
             <Row>
-                <Col xs="12" md="6">
-                <Card
-                    style={{
-                        textAlign: "center"
-                    }}
-                >
-                    <Card.Body>
-                    <Card.Title>FireChakra</Card.Title>
-                    <Image className="img-center, img-fluid" src={firechakra} alt="screenshot of a web app called FireChakra" />
-                    <Card.Text>
-                        Personal assistant web app with React.js, Chakra UI, and Firebase Firestore
-                    </Card.Text>
-                    <Card.Text>
-                        <a href="https://firechakra.vercel.app/" target="_blank" rel="noopener noreferrer">Try it live!</a>
-                    </Card.Text>
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col xs="12" md="6">
-                <Card
-                    style={{
-                        textAlign: "center"
-                    }}
-                >
-                    <Card.Body>
-                    <Card.Title>April's Closet</Card.Title>
-                    <Image className="img-center, img-fluid" src={aprilscloset} alt="screenshot of a website called April's Closet" />
-                    <Card.Text>
-                        Concept eCommerce website + custom WordPress classic theme
-                    </Card.Text>
-                    </Card.Body>
-                </Card>
-                </Col>
+                    {data && data.map(({ id, name, description, screenshot, livelink }) => (
+                        <Col key={id}  xs="12" md="6">
+                        <Card
+                            style={{
+                                textAlign: "center"
+                            }}
+                        >
+                            <Card.Body>
+                            <Card.Title>{name}</Card.Title>
+                            <Image className="img-center, img-fluid" src={firechakra} alt="screenshot of a web app called FireChakra" />
+                            <Card.Text>
+                                {description}
+                            </Card.Text>
+                            <Card.Text>
+                                <a href={livelink} target="_blank" rel="noopener noreferrer">Try it live!</a>
+                            </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </Col>
+                    ))}
             </Row>
             <br />
         </Container>

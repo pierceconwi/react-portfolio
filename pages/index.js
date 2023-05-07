@@ -8,7 +8,6 @@ import RecentProject from '../pages/components/recentproject';
 import Projects from '../pages/components/projects';
 import Footer from '../pages/components/footer';
 import styles from '@/styles/Home.module.css';
-import Projects2 from '../pages/components/projects2';
 import { getProjects } from './lib/data.js';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -39,8 +38,7 @@ export default function Home({data}) {
       <SocialBar />
       <Services />
       <RecentProject />
-      <Projects />
-      <Projects2 data={data} />
+      <Projects data={data} />
       <SocialBar />
       <Footer />
       </main>
