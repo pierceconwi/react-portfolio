@@ -20,7 +20,7 @@ export default function SocialBar() {
                 </Col>
                 <Col xs="5" md="8"> </Col>
                 <Col xs="3" md="2">
-                    <a href="mailto:pierceconwi@gmail.com"><Button variant="success">{`Let's`} Talk</Button></a>
+                    <a href="mailto:pierceconwi@gmail.com"><Button variant="success">Let&#39s Talk</Button></a>
                 </Col>
             </Row>
             <br />

@@ -14,7 +14,7 @@ export default function SplashBox() {
                 <Col sm="12" md="8">
                     <h1>Pierce Conwi</h1>
                     <h2>Web Developer</h2>
-                    <p>Hi, {`I'm`} Pierce, a web developer located in the San Francisco Bay Area. I am a resilient team player with a strong analytical mind who welcomes every new challenge with enthusiasm.</p>
+                    <p>Hi, I&#39m Pierce, a web developer located in the San Francisco Bay Area. I am a resilient team player with a strong analytical mind who welcomes every new challenge with enthusiasm.</p>
                     <p>Let my web expertise go to work for you!</p>
                 </Col>
                 <Col sm="12" md="4">
