@@ -152,6 +152,10 @@ h1{
   transform: scale(1.1);
 }
 
+#home {
+  scroll-margin-top: 90px;
+}
+
 #services {
   scroll-margin-top: 90px;
 }
