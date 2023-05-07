@@ -24,7 +24,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ data }) {
+export default function Home({data}) {
   return (
     <>
       <Head>
@@ -40,7 +40,7 @@ export default function Home({ data }) {
       <Services />
       <RecentProject />
       <Projects />
-      <Projects2 />
+      <Projects2 data={data} />
       <SocialBar />
       <Footer />
       </main>
