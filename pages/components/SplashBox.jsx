@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import selfie from '../public/hs_full.jpg';
+import selfie from 'public/hs_full.jpg';
 
 export default function SplashBox() {
     return (
