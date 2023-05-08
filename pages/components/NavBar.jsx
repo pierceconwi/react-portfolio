@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import selfie  from 'public/images/22hs_sm.jpg';
+import selfie  from '/public/images/22hs_sm.jpg';
 
 export default function NavBar() {
     return (
