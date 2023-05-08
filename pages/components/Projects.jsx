@@ -27,7 +27,7 @@ export default function Projects({ data }) {
                         >
                             <Card.Body>
                             <Card.Title>{name}</Card.Title>
-                            <Image className="img-center, img-fluid" src={screenshot} width="500" height="300" alt="screenshot of a web app called FireChakra" />
+                            <Image className="img-center, img-fluid" src={screenshot} width="500" height="300" alt={name}  width={500} height={300} />
                             <Card.Text>
                                 {description}
                             </Card.Text>
