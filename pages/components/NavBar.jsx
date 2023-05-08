@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import selfie  from '/public/images/22hs_sm.jpg';
 
 export default function NavBar() {
     return (
@@ -11,7 +10,7 @@ export default function NavBar() {
         <div>
             <Navbar bg="dark" variant="dark" expand="md" fixed="top" >
             <Container>
-                <Navbar.Brand href="#home"><Image className="border-radiusImportant" src={selfie} alt="logo" width="50" height="50" /></Navbar.Brand>
+                <Navbar.Brand href="#home"><Image className="border-radiusImportant" src='/images/22hs_sm.jpg' alt="logo" width="50" height="50" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">

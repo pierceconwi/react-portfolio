@@ -4,8 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import github from '/public/images/github-logo.png';
-import linkedin from '/public/images/linkedin-logo.png';
 
 export default function SocialBar() {
     return (
@@ -13,10 +11,10 @@ export default function SocialBar() {
         <Container>
             <Row>
                 <Col xs="2" md="1">                    
-                    <a href="https://github.com/pierceconwi"  target="_blank" rel="noopener noreferrer"><Image className="border-radiusImportant img-center img-fluid social" src={github} alt="GitHub logo" /></a>
+                    <a href="https://github.com/pierceconwi"  target="_blank" rel="noopener noreferrer"><Image className="border-radiusImportant img-center img-fluid social" src='/images/github-logo.png' alt="GitHub logo" width="75" height="75" /></a>
                 </Col>
                 <Col xs="2" md="1">
-                    <a href="https://www.linkedin.com/in/pierceconwi/"  target="_blank" rel="noopener noreferrer"><Image className="border-radiusImportant img-center img-fluid social" src={linkedin} alt="LinkedIn logo" /></a>
+                    <a href="https://www.linkedin.com/in/pierceconwi/"  target="_blank" rel="noopener noreferrer"><Image className="border-radiusImportant img-center img-fluid social" src='/linkedin-logo.png' alt="LinkedIn logo" width="75" height="75" /></a>
                 </Col>
                 <Col xs="5" md="8"> </Col>
                 <Col xs="3" md="2">

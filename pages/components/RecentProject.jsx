@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import bsrss from '/public/images/bsr-hp-ss.png';
 
 export default function RecentProject() {
     return (
@@ -20,7 +19,7 @@ export default function RecentProject() {
                 >
                     <Card.Body>
                     <Card.Title>Bikeable Santa Rosa</Card.Title>
-                    <Image className="img-center, img-fluid" src={bsrss} alt="screenshot of a website made for Bikeable Santa Rosa" width={500} height={300} />
+                    <Image className="img-center, img-fluid" src='/images/bsr-hp-ss.png' alt="screenshot of a website made for Bikeable Santa Rosa" width={500} height={300} />
                     <Card.Text>
                     WordPress-powered news and events website for a local community activist coalition.
                     </Card.Text>
