@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
-import NavBar from './components/navbar';
-import SplashBox from './components/splashbox';
-import SocialBar from './components/socialbar';
-import Services from './components/services';
-import RecentProject from './components/recentproject';
-import Projects from './components/projects';
-import Footer from './components/footer';
+import NavBar from '/components/navbar';
+import SplashBox from '/components/splashbox';
+import SocialBar from '/components/socialbar';
+import Services from '/components/services';
+import RecentProject from '/components/recentproject';
+import Projects from '/components/projects';
+import Footer from '/components/footer';
 import styles from '@/styles/Home.module.css';
-import { getProjects } from './components/lib/data';
+import { getProjects } from '/components/lib/data';
 
 const inter = Inter({ subsets: ['latin'] })
 
