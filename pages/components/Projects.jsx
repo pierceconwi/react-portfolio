@@ -12,7 +12,6 @@ export default function Projects({ data }) {
     const [description, setDescription] = useState(" ");
     const [screenshot, setScreenshot] = useState(" ");
     const [livelink, setLivelink] = useState(" ");
-    const imgPathBase = "..public/";
     return (
         <>
         <Container>

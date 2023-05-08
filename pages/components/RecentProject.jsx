@@ -19,7 +19,7 @@ export default function RecentProject() {
                 >
                     <Card.Body>
                     <Card.Title>Bikeable Santa Rosa</Card.Title>
-                    <Image className="img-center, img-fluid" src='/images/bsr-hp-ss.png' alt="screenshot of a website made for Bikeable Santa Rosa" width={500} height={300} />
+                    <Image className="img-center, img-fluid" src='/bsr-hp-ss.png' alt="screenshot of a website made for Bikeable Santa Rosa" width={500} height={300} />
                     <Card.Text>
                     WordPress-powered news and events website for a local community activist coalition.
                     </Card.Text>
