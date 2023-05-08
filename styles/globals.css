@@ -168,6 +168,10 @@ h1{
   scroll-margin-top: 90px;
 }
 
+div.card {
+  margin-top: 0.2rem;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

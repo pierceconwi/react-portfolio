@@ -4,9 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import { Laptop, Brush } from 'react-bootstrap-icons';
-import placeholder from '../public/placeholder_md.jpg';
-import bsrss from '../public/bsr-hp-ss.png';
+import bsrss from '../../public/bsr-hp-ss.png';
 
 export default function RecentProject() {
     return (

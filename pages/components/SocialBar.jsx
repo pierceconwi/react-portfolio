@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import github from '../public/github-logo.png';
-import linkedin from '../public/linkedin-logo.png';
+import github from '../../public/github-logo.png';
+import linkedin from '../../public/linkedin-logo.png';
 
 export default function SocialBar() {
     return (
@@ -20,7 +20,7 @@ export default function SocialBar() {
                 </Col>
                 <Col xs="5" md="8"> </Col>
                 <Col xs="3" md="2">
-                    <a href="mailto:pierceconwi@gmail.com"><Button variant="success">Let&#39s Talk</Button></a>
+                    <a href="mailto:pierceconwi@gmail.com"><Button variant="success">Let's Talk</Button></a>
                 </Col>
             </Row>
             <br />

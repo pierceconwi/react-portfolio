@@ -4,9 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import firechakra from '../public/fc_ss.png';
-import aprilscloset from '../public/ac_ss.png';
-import Link from 'next/link';
 import { useState } from 'react'
 
 export default function Projects({ data }) {
@@ -15,6 +12,7 @@ export default function Projects({ data }) {
     const [description, setDescription] = useState(" ");
     const [screenshot, setScreenshot] = useState(" ");
     const [livelink, setLivelink] = useState(" ");
+    const imgPathBase = "..public/";
     return (
         <>
         <Container>
@@ -29,7 +27,7 @@ export default function Projects({ data }) {
                         >
                             <Card.Body>
                             <Card.Title>{name}</Card.Title>
-                            <Image className="img-center, img-fluid" src={firechakra} alt="screenshot of a web app called FireChakra" />
+                            <Image className="img-center, img-fluid" src={screenshot} width="500" height="300" alt="screenshot of a web app called FireChakra" />
                             <Card.Text>
                                 {description}
                             </Card.Text>
