@@ -5,7 +5,7 @@ import path from 'path';
 const dataDir = path.join(process.cwd(), "pages/data");
 
 // Return names and IDs for all JSON objects in array, sorted by Name property
-export function getProjects() {
+export async function getProjects() {
     // Get filepath to JSON file
     const filePath = path.join(dataDir, "projects.json");
     // Load JSON file components
@@ -26,7 +26,7 @@ export function getProjects() {
 
 
 // Return all IDs for all objects in JSON projects list
-export async function getAllProjectIds() {
+export default async function getAllProjectIds() {
     // Get filepath to JSON file
     const filePath = path.join(dataDir, "projects.json");
     // Load JSON file components

@@ -8,7 +8,7 @@ import RecentProject from './components/recentproject';
 import Projects from './components/projects';
 import Footer from './components/footer';
 import styles from '@/styles/Home.module.css';
-import { getProjects } from './lib/data';
+import { getProjects } from './components/lib/data';
 
 const inter = Inter({ subsets: ['latin'] })
 
