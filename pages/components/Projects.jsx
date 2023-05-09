@@ -20,7 +20,6 @@ export default function Projects({ data }) {
             <Row>
                     {data && data.map(({ id, name, description, screenshot, livelink }) => (
                         <Col key={id}  xs="12" md="6">
-                        <Link href={`/projects/${id}`}>
                         <Card
                             style={{
                                 textAlign: "center"
@@ -35,9 +34,10 @@ export default function Projects({ data }) {
                             <Card.Text>
                                 <a href={livelink} target="_blank" rel="noopener noreferrer">Try it live!</a>
                             </Card.Text>
+                            <Link href={`/projects/${id}`}>More Info</Link>
                             </Card.Body>
                         </Card>
-                        </Link>
+                       
                         </Col>
                     ))}
             </Row>

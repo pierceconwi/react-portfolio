@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import NavBar from '/pages/components/NavBar.jsx';
 import SocialBar from '/pages/components/SocialBar.jsx';
 import Footer from '/pages/components/Footer.jsx';
 import { getProjects, getAllProjectIds, getData } from '../../lib/data.js';
@@ -39,14 +38,17 @@ export default function Entry( { itemData } ) {
       <Container>
         <Row>
             <Col>
-                <Card>
+                <Card
+                    style={{
+                        textAlign: "center"
+                    }}
+                >
                 <Card.Body>
                     <Image className="img-center, img-fluid" src={itemData.screenshot} alt={itemData.name}  width={500} height={300} />
                     <Card.Title>{itemData.name}</Card.Title>
                     <Card.Text>{itemData.description}</Card.Text>
-                    <Link href={itemData.livelink}>Try it Live!</Link>
-                    <br />
-                    <Link href="/">Back to Home</Link>
+                    <Card.Text><Link href={itemData.livelink} target="_blank" rel="noopener noreferrer">Try it Live!</Link></Card.Text>
+                    <Card.Text><Link href="/">Back to Home</Link></Card.Text>
                 </Card.Body>
                 </Card>
             </Col>
