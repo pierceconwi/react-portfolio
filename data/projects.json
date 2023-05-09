@@ -3,6 +3,7 @@
         "id": 0,
         "name": "FireChakra",
         "description": "Personal assistant web app with React.js, Chakra UI, and Firebase Firestore.",
+        "summary": "/",
         "screenshot": "/fc_ss.png",
         "livelink": "https://firechakra.vercel.app/"
     },
@@ -10,6 +11,7 @@
         "id": 1,
         "name": "April's Closet",
         "description": "Concept eCommerce website + custom WordPress classic theme",
+        "summary": "/",
         "screenshot": "/ac_ss.png",
         "livelink": "none"
     }
