@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
+import Link from 'next/link';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -19,6 +20,7 @@ export default function Projects({ data }) {
             <Row>
                     {data && data.map(({ id, name, description, screenshot, livelink }) => (
                         <Col key={id}  xs="12" md="6">
+                        <Link href={`/projects/${id}`}>
                         <Card
                             style={{
                                 textAlign: "center"
@@ -35,6 +37,7 @@ export default function Projects({ data }) {
                             </Card.Text>
                             </Card.Body>
                         </Card>
+                        </Link>
                         </Col>
                     ))}
             </Row>
