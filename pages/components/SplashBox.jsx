@@ -7,7 +7,10 @@ import Col from 'react-bootstrap/Col';
 export default function SplashBox() {
     return (
         <>
-        <Container id="home">
+        <Container id="home"
+                style={{
+                    paddingTop: "10px"
+                }}>
             <br />
             <Row>
                 <Col sm="12" md="8">

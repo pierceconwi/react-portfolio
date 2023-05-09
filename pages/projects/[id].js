@@ -37,7 +37,12 @@ export default function Entry( { itemData } ) {
       <>
       <Container>
         <NavBar />
-      <Container>
+      <Container
+        style={{
+            paddingTop: "85px",
+            paddingBottom: "15px"
+        }}
+      >
         <Row>
             <Col>
                 <Card
