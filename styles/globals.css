@@ -160,6 +160,10 @@ h1{
   transform: scale(1.1);
 }
 
+.pSum {
+  white-space: pre-wrap;
+}
+
 #home {
   scroll-margin-top: 90px;
 }

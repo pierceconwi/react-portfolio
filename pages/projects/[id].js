@@ -54,7 +54,7 @@ export default function Entry( { itemData } ) {
                     <Card.Title>{itemData.name}</Card.Title>
                     <Image className="img-center, img-fluid" src={itemData.screenshot} alt={itemData.name}  width={500} height={300} />
                     <Card.Text>{itemData.description}</Card.Text>
-                    <Card.Text>{itemData.summary}</Card.Text>
+                    <Card.Text className="pSum">{itemData.summary}</Card.Text>
                     <Card.Text><Link href={itemData.livelink} target="_blank" rel="noopener noreferrer">Try it Live!</Link></Card.Text>
                 </Card.Body>
                 </Card>
