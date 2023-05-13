@@ -32,7 +32,7 @@ export default function Projects({ data }) {
                                 {description}
                             </Card.Text>
                             <Card.Text>
-                                <a href={livelink} target="_blank" rel="noopener noreferrer">Try it live!</a>
+                                <a href={livelink} target="_blank" rel="noopener noreferrer">Try it!</a>
                             </Card.Text>
                             <Link href={`/projects/${id}`}>More Info</Link>
                             </Card.Body>

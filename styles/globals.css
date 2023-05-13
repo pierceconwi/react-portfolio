@@ -160,6 +160,7 @@ h1{
   transform: scale(1.1);
 }
 
+/* allows for escaped newline breaks - using to format JSON on the page */
 .pSum {
   white-space: pre-wrap;
 }

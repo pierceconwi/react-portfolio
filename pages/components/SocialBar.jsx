@@ -11,10 +11,10 @@ export default function SocialBar() {
         <Container>
             <Row>
                 <Col xs="2" md="1">                    
-                    <a href="https://github.com/pierceconwi"  target="_blank" rel="noopener noreferrer"><Image className="border-radiusImportant img-center img-fluid social" src='/github-logo.png' alt="GitHub logo" width="75" height="75" /></a>
+                    <a href="https://github.com/pierceconwi"  target="_blank" rel="noopener noreferrer"><Image className="border-radiusImportant img-center img-fluid social" src='/github-logo.png' alt="GitHub logo" width="60" height="60" /></a>
                 </Col>
                 <Col xs="2" md="1">
-                    <a href="https://www.linkedin.com/in/pierceconwi/"  target="_blank" rel="noopener noreferrer"><Image className="border-radiusImportant img-center img-fluid social" src='/linkedin-logo.png' alt="LinkedIn logo" width="75" height="75" /></a>
+                    <a href="https://www.linkedin.com/in/pierceconwi/"  target="_blank" rel="noopener noreferrer"><Image className="border-radiusImportant img-center img-fluid social" src='/linkedin-logo.png' alt="LinkedIn logo" width="60" height="60" /></a>
                 </Col>
                 <Col xs="4" md="8"> </Col>
                 <Col xs="4" md="2">
