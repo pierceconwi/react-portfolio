@@ -24,7 +24,7 @@ export default function RecentProject() {
                     WordPress-powered news and events website for a local community activist coalition.
                     </Card.Text>
                     <Card.Text>
-                        <a href="https://bikeablesantarosa.org" target="_blank" rel="noopener noreferrer">See it live!</a>
+                        <a href="https://bikeablesantarosa.org" target="_blank" rel="noopener noreferrer">View</a>
                     </Card.Text>
                     </Card.Body>
                 </Card>
