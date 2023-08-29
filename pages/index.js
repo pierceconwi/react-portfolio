@@ -37,8 +37,8 @@ export default function Home({data}) {
       <SplashBox />
       <SocialBar />
       <Services />
-      <RecentProject />
       <Projects data={data} />
+      <RecentProject />
       <SocialBar />
       <Footer />
       </main>
