@@ -12,9 +12,9 @@
         "id": 1,
         "name": "Bikeable Santa Rosa",
         "description": "WordPress-powered news and events website for a local community activist group promoting safer city streets.",
-        "summary": "Bikeable Santa Rosa is a local coalition seeking to promote the construction of a safe, low-stress bicycle network in urban Santa Rosa. \n \n The stakeholders identified the project goals as 1) full site redesign in order to better reflect the organization's emphasis on diversity and inclusion, 2) provide the public with information about the organization and its events, and 3) increase membership of their email distribution list. \n \n In order to meet these objectives, WordPress was selected as the content management system due to its ease of use. Through multiple rounds of design iteration, the client's vision was brought to life, after which the team analyzed each individual page in order to evaluate where to deploy calls to action. Capturing user information via calls to action was achieved thanks to seamless integration between WordPress and the client's MailChimp account. \n \n Throughout the three-month development process, our team was mindful of the stakeholders' need for a mobile-responsive design, full accessibility across all pages and content, and a general information hierarchy that would enable a very approachable user experience.",
+        "summary": "A recording of the project presentation can be found here: https://youtu.be/0WGPyJMQpTM",
         "date": "May 18, 2023",
         "screenshot": "/bsr-hp-ss.png",
-        "livelink": "https://docs.google.com/presentation/d/e/2PACX-1vS3CXjCGfhkWKTk8kh4Ug1fzg0GTJMsza2hU6xMIYOS18d1RZ_WMsaQXFJWFu50GRyJ69HoqsBYhufc/pub?start=false&loop=false&delayms=3000"
+        "livelink": "https://dev-bikeable-santa-rosa.pantheonsite.io/"
     }
 ]
