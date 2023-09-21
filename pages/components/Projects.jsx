@@ -15,7 +15,7 @@ export default function Projects({ data }) {
     const [livelink, setLivelink] = useState(" ");
     return (
         <>
-        <Container>
+        <Container id="projects">
             <h2>Projects</h2>
             <Row>
                     {data && data.map(({ id, name, description, screenshot, livelink }) => (

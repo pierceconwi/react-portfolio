@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 export default function RecentProject() {
     return (
         <>
-        <Container id="projects">
+        <Container>
             <h2>Recent Project</h2>
             <Row>
                 <Col xs="12">
