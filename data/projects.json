@@ -10,11 +10,11 @@
     },
     {
         "id": 1,
-        "name": "April's Closet",
-        "description": "Concept eCommerce website + custom WordPress classic theme",
-        "summary": "April's Closet is a concept eCommerce apparel website built using HTML, CSS, JavaScript, PHP, MySQL, WordPress, and the WooCommerce plugin for WordPress. The design is optimized for viewing on mobile devices, ensuring that customers can easily browse and purchase clothing items using their smartphones or tablets. April's Closet is built using a combination of HTML, CSS, JavaScript, and PHP, which allows for flexibility and customization. The MySQL database is used to store and manage the website's data, including product information, customer orders, and other relevant details.",
-        "date": "July 24, 2022",
-        "screenshot": "/ac_ss.png",
-        "livelink": "none"
+        "name": "Bikeable Santa Rosa",
+        "description": "WordPress-powered news and events website for a local community activist group promoting safer city streets.",
+        "summary": "Summary TBD",
+        "date": "May 20, 2023",
+        "screenshot": "/bsr-hp-ss.png",
+        "livelink": "https://www.bikeablesantarosa.org/"
     }
 ]
