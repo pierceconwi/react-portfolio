@@ -3,7 +3,7 @@
         "id": 0,
         "name": "FireChakra",
         "description": "Personal assistant web app with React.js, Chakra UI, and Firebase Firestore.",
-        "summary": "FireChakra is a mobile-responsive web application designed to serve as an organizer, personal assistant, and planner for users. It was built using HTML, CSS, JavaScript, React.js, Chakra UI, Next.js, and Firebase Firestore. \n \n Firebase Firestore is used as the database for this web app, providing users with a secure and scalable way to store their data. Next.js is used as the web framework, providing benefits such as server-side rendering, automatic code splitting, and optimized performance. Authentication functionality is included, allowing users to use their existing Google account to securely log in. This ensures that users' data is kept safe and accessible only to authorized individuals.",
+        "summary": "FireChakra is a mobile-responsive web application designed to serve as an organizer, personal assistant, and planner for users. \n \n  Firebase Firestore is used as the database for this web app, providing users with a secure and scalable way to store their data. Next.js is used as the web framework, providing benefits such as server-side rendering, automatic code splitting, and optimized performance. Authentication functionality is included, allowing users to use their existing Google account to securely log in.",
         "date": "October 25, 2022",
         "screenshot": "/fc_ss.png",
         "livelink": "https://firechakra.vercel.app/"

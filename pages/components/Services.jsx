@@ -48,7 +48,7 @@ export default function Services() {
                     }}
                 >
                 <Card.Body>
-                    <Card.Title>Website & Landing Page Design</Card.Title>
+                    <Card.Title>Website Design</Card.Title>
                     <Brush  className="icon" />
                     <Card.Text>
                         Eye-catching designs which hinge on simplicity to maximize conversions.
