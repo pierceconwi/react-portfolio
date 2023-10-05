@@ -21,7 +21,7 @@ export default function Services() {
                     <Card.Title>Website Development</Card.Title>
                     <Laptop  className="icon" />
                     <Card.Text>
-                        Custom solutions available with eCommerce and SEO integration.
+                        Custom-built solutions available with eCommerce and SEO integration.
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -48,7 +48,7 @@ export default function Services() {
                     }}
                 >
                 <Card.Body>
-                    <Card.Title>Website Design</Card.Title>
+                    <Card.Title>Website & App Design</Card.Title>
                     <Brush  className="icon" />
                     <Card.Text>
                         Eye-catching designs which hinge on simplicity to maximize conversions.
